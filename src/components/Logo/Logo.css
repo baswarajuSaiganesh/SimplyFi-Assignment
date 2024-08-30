@@ -1,0 +1,52 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A3434;
+}
+
+.diamond{
+    position: relative;
+    border-top: 26px solid #D87F53;
+    border-left: 26px solid #A3D7A6;
+    border-bottom: 26px solid #60B5FF;
+    border-right: 26px solid #C5BDA8;
+    width: 120px;
+    height: 120px;
+    transform: rotate(45deg);
+}
+
+.text{
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+span{
+    color: #D87F53;
+}
